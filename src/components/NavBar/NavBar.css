@@ -1,0 +1,16 @@
+nav {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+}
+
+#logo {
+    width: 36px;
+    margin-left: 1rem;
+}
+
+menu {
+    font-family: "Poppins", sans-serif;
+}

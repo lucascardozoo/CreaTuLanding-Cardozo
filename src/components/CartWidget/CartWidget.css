@@ -1,0 +1,11 @@
+#container-icon-cart {
+    width: 36px;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#icon-cart {
+    width: 70%;
+}
