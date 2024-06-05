@@ -1,0 +1,31 @@
+.card-detail {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 19rem;
+}
+
+.img-card-detail {
+    border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.body-card-detail {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-card-detail {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.description-card-detail {
+    flex-grow: 1;
+}
+
+.precio-card-detail {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
