@@ -41,7 +41,9 @@ const NavBar = () => {
           </MenuItem>
         </MenuList>
       </Menu>
-      <CartWidget />
+      <Link to='/cart'>
+        <CartWidget />
+      </Link>
     </nav>
   )
 }

@@ -1,0 +1,69 @@
+#cart-container {
+    margin-top: 1rem;
+}
+
+#cart-container Table Thead tr .celda-table-center, #cart-container Table Tbody tr .celda-table-center, #cart-container Table Tfoot tr .celda-table-center {
+    text-align: center;
+}
+
+#cart-container Table Tfoot tr .celdas-table-total {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#btn-cart-container {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn-clear-cart {
+    background-color: #e2e8f0;
+    color: #000000;
+    height: 3rem;
+    width: 18rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#btn-pagar, #btn-ver-prod {
+    background-color: #000000;
+    color: #ffffff;
+    height: 3rem;
+    width: 18rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#cart-vacio-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-cart-vacio {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#btn-ver-prod {
+    margin-top: 1rem;
+}
+
+.btn-celda-container {
+    display: flex;
+    justify-content: center;
+}
+
+.celda-quantity {
+    width: 1.5rem;
+    text-align: center;
+}

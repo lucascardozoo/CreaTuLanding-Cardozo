@@ -20,6 +20,11 @@
     font-weight: 600;
 }
 
+.stock-card {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 .precio-card {
     margin: 1rem 0;
     font-size: 1.2rem;

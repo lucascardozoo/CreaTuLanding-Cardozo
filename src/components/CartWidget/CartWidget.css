@@ -9,3 +9,8 @@
 #icon-cart {
     width: 70%;
 }
+
+#icon-cart-count {
+    margin-left: 0.1rem;
+    font-weight: 600;
+}

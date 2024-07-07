@@ -2,7 +2,7 @@ import React from 'react'
 import './Item.css'
 import { Link } from 'react-router-dom'
 
-const Item = ( {id, nombre, precio, img} ) => {
+const Item = ( {id, nombre, precio, img, stock} ) => {
   return (
     <div className='card'>
       <figure>
@@ -10,11 +10,18 @@ const Item = ( {id, nombre, precio, img} ) => {
       </figure>
       <div className='body-card'>
         <h2 className='name-card'>{nombre}</h2>
+        {
+          stock === 0 ? 
+          <p className='stock-card'>Producto sin stock</p>
+          :
+          <p className='stock-card'>Stock: {stock}</p>
+        }
+        
         <p className='precio-card'>$ {precio}</p>
       </div>
-      <button className='btn-add-cart'>
-        <Link to={`/producto/${id}`}>Ver detalle</Link>
-      </button>
+      <Link to={`/producto/${id}`}>
+        <button className='btn-add-cart'>Ver detalle</button>
+      </Link>
     </div>
   )
 }

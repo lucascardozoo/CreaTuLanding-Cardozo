@@ -5,14 +5,14 @@
     justify-content: center;
 }
 
-#btn-decrementar {
+.btn-decrementar {
     width: 2rem;
     background-color: #000000;
     color: #ffffff;
     border-radius: 0.5rem;
 }
 
-#btn-incrementar {
+.btn-incrementar {
     width: 2rem;
     background-color: #000000;
     color: #ffffff;

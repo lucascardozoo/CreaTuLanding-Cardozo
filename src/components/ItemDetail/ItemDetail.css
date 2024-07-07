@@ -24,8 +24,24 @@
     flex-grow: 1;
 }
 
+.stock-card-detail {
+    margin-top: 0.5rem;
+}
+
 .precio-card-detail {
     margin: 1rem 0;
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+#btn-to-cart {
+    background-color: #e2e8f0;
+    color: #000000;
+    height: 3rem;
+    width: 100%;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
 }
